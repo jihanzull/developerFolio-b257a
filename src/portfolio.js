@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Jihan Zulfa Nabila",
-  title: "Hi all, I'm jihan",
+  title: "Hi, Saya jihan",
   subTitle: emoji(
     "Mahasiswa S1-Teknik Informatika / Adm Kasir - Rs Budi Asih"),
   resumeLink:
