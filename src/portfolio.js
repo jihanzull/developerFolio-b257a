@@ -23,8 +23,7 @@ const greeting = {
   username: "Jihan Zulfa Nabila",
   title: "Hi all, I'm jihan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "Mahasiswa S1-Teknik Informatika / Adm Kasir - Rs Budi Asih"),
   resumeLink:
     "https://drive.google.com/file/d/1m_HkqNExtzKs0gOfaIkjA24FnHs_GrWl/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -46,17 +45,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "  Keahlian Saya",
+  subTitle: "MAHASISWA TEKNIK INFORMATIKA DENGAN PENGALAMAN DUNIA KERJA DAN PROYEK NYATA",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Membuat aplikasi web sederhana menggunakan HTML, CSS, JavaScript, dan JSP"),
+    emoji("⚡ Terbiasa menggunakan sistem informasi rumah sakit untuk transaksi dan pencatatan"),
+    emoji("⚡ Dapat membaca resep obat dan diagnosis pasien untuk keperluan administrasi"),
+    emoji("⚡ Pengalaman dalam membuat aplikasi mobile sederhana menggunakan Java & Android Studio"),
+    emoji("⚡ Mengelola database menggunakan MySQL untuk proyek skala kecil"),
   ],
+};
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -71,10 +70,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -87,20 +82,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -110,10 +97,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -124,27 +107,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+     const educationInfo = {
+  schoolName: "STMIK Mardira Indonesia",
+  logo: require("https://www.stmik-mi.ac.id/image/logo.png"),
+  subHeader: "Sarjana (S1) Teknik Informatika",
+  duration: "September 2022 – Sekarang",
+  desc: "Mahasiswa aktif dengan minat di bidang pengembangan aplikasi web dan mobile, serta pengalaman dunia kerja dan proyek nyata.",
+  descBullets: [
+    "Mengembangkan aplikasi web sederhana menggunakan HTML, CSS, JavaScript, JSP dan MySQL",
+    "Aktif mengikuti proyek kelompok dan kegiatan organisasi di luar kampus",
+    "Mampu mengelola waktu antara kuliah, kerja sebagai kasir di rumah sakit, dan kegiatan kampus"
   ]
 };
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -152,7 +126,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -169,36 +143,34 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Tampilkan bagian pengalaman kerja
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Kasir",
+      company: "Rumah Sakit Budi Asih",
+      companylogo: require("https://static.wikia.nocookie.net/logopedia/images/f/f8/Rumah_Sakit_Budi_Asih.png/revision/latest/scale-to-width-down/200?cb=20191020163146"), 
+      date: "November 2022 – Sekarang",
+      desc: "Bertugas menangani transaksi pasien, pencatatan keuangan, dan administrasi pelayanan rumah sakit.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Mengoperasikan sistem informasi rumah sakit untuk input tagihan dan pembayaran pasien",
+        "Membaca resep obat dan diagnosis untuk validasi data pembayaran",
+        "Berkomunikasi dengan pasien dan pihak asuransi untuk proses klaim dan verifikasi data"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Panitia Acara Sekolah",
+      company: "MA Al-Basyariyah",
+      companylogo: require("./assets/images/schoolLogo.png"), // Opsional, jika ada logo
+      date: "2019 – 2021",
+      desc: "Berperan aktif dalam kepanitiaan kegiatan sekolah, termasuk seminar, bazar, dan bakti sosial.",
+      descBullets: [
+        "Menjadi ketua divisi Teknik Operasinal dan anggota divisi acara di beberapa kegiatan sekolah",
+        "Mengatur logistik dan jadwal acara dengan koordinasi tim",
+        "Melatih tanggung jawab, komunikasi, dan manajemen waktu sejak dini"
+      ]
     }
   ]
 };
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -209,121 +181,69 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
 // Achievement Section
 // Include certificates, talks etc
 
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Data Science with AR",
+      subtitle: "Sertifikat pelatihan pengenalan Data Science dengan pendekatan Augmented Reality dari DQ Lab.",
+      image: require("https://user-images.githubusercontent.com/86232890/124597500-c7df7e80-de8d-11eb-910b-df7d2498ade1.jpg"), // Ganti dengan logo DQ Lab jika ada
+      imageAlt: "Logo DQ Lab",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Lihat Sertifikat",
+          url: "https://drive.google.com/file/d/1-BoC5glmur34hSntZSIvvnViqlTsOLD-/view?usp=sharing" // Ganti dengan link asli jika ada
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+       {
+      title: "R Fundamental for Data Science",
+      subtitle: "Pelatihan dasar bahasa pemrograman R untuk keperluan analisis data dan statistik dari DQ Lab.",
+      image: require("https://user-images.githubusercontent.com/86232890/124597500-c7df7e80-de8d-11eb-910b-df7d2498ade1.jpg"), // Ganti dengan logo DQ Lab jika ada
+      imageAlt: "Logo DQ Lab",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Lihat Sertifikat",
+          url: "https://drive.google.com/file/d/1cT8q4WGXaKHf3LCioTM7rz9coHj-q_I8/view?usp=sharing" // Ganti dengan link asli jika ada
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+  {
+       title: "Guide to Learn with AI",
+      subtitle: "Panduan belajar efisien dengan bantuan kecerdasan buatan untuk mendalami Data Science.",
+       image: require("https://user-images.githubusercontent.com/86232890/124597500-c7df7e80-de8d-11eb-910b-df7d2498ade1.jpg"), // Ganti dengan logo DQ Lab jika ada
+      imageAlt: "Logo DQ Lab",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Lihat Sertifikat",
+          url: "https://drive.google.com/file/d/1m9K5vh35hVFAquVsoaM29zpXLpv_OMde/view?usp=sharingg" // Ganti dengan link asli jika ada
         }
       ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+    };
 
+          
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Konten Saya",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+   "Beberapa video yang saya buat bersama teman-teman, sebagai dokumentasi proyek dan pengalaman belajar.",
+  displayMediumBlogs: false,
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://youtu.be/HC72yseH0Tw?si=_it_spCrMfq8q5lY",
+      title: "Talk Show Digital",
+      description: "Talk Show seputar Cloud Computing Di Indonesia."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://youtu.be/Lz78W7oKGao?si=FHFte850caNQm0AJ",
+      title: "Tutorial desaign dengan Camtasia",
+      description: "Tutorial desaign batik dengan Camtasia."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Talks Sections
 
@@ -341,7 +261,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,30 +274,28 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Silakan unduh CV saya di bawah ini.",
+  link: "https://drive.google.com/file/d/1m_HkqNExtzKs0gOfaIkjA24FnHs_GrWl/view?usp=sharing", // Ganti dengan link CV kamu
+  display: true
 };
+
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Hubungi Saya ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
-};
+    "Ingin berdiskusi tentang proyek, kerja sama, atau hanya menyapa? Kotak masuk saya selalu terbuka.",
+  email_address: "nabilajihanzulfa@gmail.com" // Ganti dengan email aktif kamu
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+const InstagramDetails = {
+  userName: "jihanzul_", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
